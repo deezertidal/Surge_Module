@@ -6,6 +6,7 @@
 
 |:octocat:模块|:link:链接|:pushpin:说明|
 |--|--|--|
+|:white_check_mark:Surge Panel|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/Surge_Module/master/sgpanel.sgmodule)|信息面板
 |:white_check_mark:accuweather解锁|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/accu.module)|天气app
 |:white_check_mark:AdBlock|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/AdBlock.module)|整体去广告
 |:white_check_mark:alarmy|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/alarmy.module)|使命闹钟
