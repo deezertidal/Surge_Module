@@ -1,4 +1,4 @@
-# :rocket:Surge模块    
+# Surge模块    
 
 ### [公益机场分享](https://github.com/deezertidal/freevpn/blob/main/README.md)  
 
