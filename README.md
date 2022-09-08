@@ -154,9 +154,9 @@
 |:white_check_mark:小小优趣|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/xxyq.module)|儿童类
 |:white_check_mark:幻影相册|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/hyxc.module)|照片编辑
 |:white_check_mark:精塾国学|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/jsgx.module)|学习类
-****
 
-  
+* 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
+  ****
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
@@ -176,5 +176,4 @@
 |:white_check_mark:Youtube.ipa|[:link:链接地址](https://appdb.to/app/cydia/1900000869)|去广告 后台播放音乐 画中画（需搭配altstore自动刷新签名）
 |:white_check_mark:TrollStore 永久签名|[:link:教程](https://github.com/deezertidal/shadowrocket-rules/blob/main/TrollStore.MD)|未越狱用户需搭配altstore安装
 
-****
-* 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
+
