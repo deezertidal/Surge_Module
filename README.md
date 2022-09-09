@@ -158,14 +158,16 @@
 
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
   ****
-|:octocat:机场推荐|:link:链接|
-|--|--|
-|:white_check_mark:低端机场|[:link:MagicSchool](https://2220.it/register?aff=GNs68S4XWT)|
+
+|:octocat:机场推荐|:link:链接| :pushpin:说明
+|--|--|--|
+|:white_check_mark:低端机场|[:link:MagicSchool](https://2220.it/register?aff=GNs68S4XWT)|专属八折优惠码shadycn(活动套餐除外)
 |:white_check_mark:低端机场|[:link:EMO](https://yyds.emovpn.top/#/register?code=7KLxhYOS)|
 |:white_check_mark:中端机场|[:link:白月光](https://www.bygcloud.com/#/register?code=DX4iT5B4)|
 |:white_check_mark:中端机场|[:link:安大毒](https://jc.hgdbk.xyz/#/register?code=heNWfiwN)|
 |:white_check_mark:高端机场|[:link:奶昔](https://naixii.com/signupbyemail.aspx?MemberCode=4abe2692a864433d9132614c7da1cd0920220701191029)|
 |:white_check_mark:高端机场|[:link:TAG](https://tagss.pro/#/register?code=0zZLweop)|
+
   ****
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
