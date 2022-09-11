@@ -25,7 +25,7 @@ groupPanel= script-name=groupPanel,update-interval=5
 
 
 [Script]
-#机场流量信息
+#机场流量信息 注意隐私性！
 #必须修改的字段:你encode后的机场订阅链接。按照示例填写
 # 示例 Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=https%3A%2F%2Fuuu.glass%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D2wkVPXxE1&reset_day=1&title=MySub&icon=opticaldisc&color=#5AC8FA
 Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js ,script-update-interval=0,argument=url=URL encode后的机场节点链接&reset_day=1&title=MySub&icon=opticaldisc&color=#5AC8FA
