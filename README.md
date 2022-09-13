@@ -1,9 +1,8 @@
 # Surge模块    
 
-### [公益机场分享](https://github.com/deezertidal/freevpn/blob/main/README.md)  
-
-****
-
+<details>
+   <summary>:key:模块及说明</summary>    
+   
 |:octocat:模块|:link:链接|:pushpin:说明|
 |--|--|--|
 |:white_check_mark:Surge Panel|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/Surge_Module/master/sgpanel.sgmodule)|信息面板
@@ -164,7 +163,11 @@
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
-  ****
+</details>
+
+
+<details>
+  <summary>:key:机场推荐</summary>   
 
 |:octocat:机场推荐|:link:链接| :pushpin:说明
 |--|--|--|
@@ -175,7 +178,12 @@
 |:white_check_mark:高端机场|[:link:奶昔](https://naixii.com/signupbyemail.aspx?MemberCode=4abe2692a864433d9132614c7da1cd0920220701191029)|
 |:white_check_mark:高端机场|[:link:TAG](https://tagss.pro/#/register?code=0zZLweop)|
 
-  ****
+</details>  
+
+
+<details>
+  <summary>:key:Substore脚本</summary>  
+
 |:octocat:Sub-Store脚本|:link:链接|:pushpin:操作说明|
 |--|--|--|
 |:white_check_mark:脚本操作：重命名|[:link:链接地址](https://raw.githubusercontent.com/futurkk/Potato/main/Rename/rename.js#input=zh&output=zh&airport=你需要的机场名)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改自己的机场名）
@@ -183,9 +191,10 @@
 |:white_check_mark:脚本过滤：筛选80,443，vmess,ws节点(免流节点)|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/nodes-filter.js)|SubStore-订阅编辑-添加操作-脚本过滤-粘贴链接
 |:white_check_mark:脚本操作：修改host混淆|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/private/main/vmess-host.js)|SubStore-订阅编辑-添加操作-脚本操作-粘贴链接（自行修改参数）
 
+</details>
 
-    
-****
+<details>
+  <summary>:key:签名工具</summary>  
 
   
 |:octocat:其他|:link:链接|:pushpin:操作说明|
@@ -194,4 +203,4 @@
 |:white_check_mark:Altstore|[:link:链接地址](https://altstore.io/)|自签工具（Win10+ or MacOs10.14.4+）
 |:white_check_mark:Youtube.ipa|[:link:链接地址](https://appdb.to/app/cydia/1900000869)|去广告 后台播放音乐 画中画（需搭配altstore自动刷新签名）
 |:white_check_mark:微信双开.ipa|[:link:链接地址](https://github.com/zwf234/WeChat/releases/download/%E5%BE%AE%E4%BF%A1%E7%BE%8E%E5%8C%96/WeChatPro_8.0.27.ipa)|双开
-
+</details>
