@@ -159,7 +159,8 @@
 |:white_check_mark:影视双字幕项目|[:link:链接地址](https://github.com/DualSubs/DualSubs)|包含youtube,appleTV,hbo等
 |:white_check_mark:iRingo项目|[:link:链接地址](https://github.com/VirgilClyne/iRingo)|解锁完整的Apple功能和集成服务
 |:white_check_mark:CUBOX|[:link:链接地址](https://raw.kgithub.com/deezertidal/shadowrocket-rules/main/modules/cubox.sgmodule)|文件收集整理
-|:white_check_mark:pandora|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/pandora.module.sgmodule)|订阅管理
+|:white_check_mark:pandora|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/pandora.module)|订阅管理
+|:white_check_mark:微信阅读积分兑换|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/wechatread.module)|请查阅脚本内教程
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
