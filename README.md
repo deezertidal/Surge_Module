@@ -166,7 +166,10 @@
 |:white_check_mark:Notboring|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/notboring.module)|解锁天气 闹钟 习惯
 |:white_check_mark:如期|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/rq.module)|扫码
 |:white_check_mark:CEO周课|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/ceo.module)|CEO周课
-  
+|:white_check_mark:Fileball|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/fileball.module)|文件管理
+
+
+
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
 </details>
