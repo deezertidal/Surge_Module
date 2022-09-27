@@ -172,6 +172,7 @@
 |:white_check_mark:proknockout|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/proknockout.module)|P图
 |:white_check_mark:青柠海报|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/qnhb.module)|海报设计
 |:white_check_mark:Faintv|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/faintv.module)|视频类
+|:white_check_mark:微信听书|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/wxts.module)|听书
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
 </details>
