@@ -307,4 +307,4 @@
 
  </details>
 
-![Image text](https://raw.githubusercontent.com/deezertidal/private/main/icons/surge.png)
+![Image text](https://raw.githubusercontent.com/deezertidal/private/main/icons/surge.png)![Image text](https://raw.githubusercontent.com/deezertidal/freevpn/main/img/award.png)
