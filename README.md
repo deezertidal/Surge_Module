@@ -209,7 +209,7 @@
 </details>
 
 <details>
-  <summary>:key:签名工具</summary>  
+  <summary>:key:签名工具及IPA</summary>  
 
   
 |:octocat:其他|:link:链接|:pushpin:操作说明|
