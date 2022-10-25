@@ -198,7 +198,12 @@
 |:white_check_mark:Lingokids|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/lingokids.module)|幼儿学习类
 |:white_check_mark:百度文库|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/bdwk.module)|阅读权限解锁
 |:white_check_mark:Craft|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/craft.module)|文档类
-
+|:white_check_mark:Panda小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/panda.module)|桌面美化
+|:white_check_mark:Keep|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/keep.module)|健身类
+|:white_check_mark:Documents|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/documents.module)|文件管理
+   
+   
+   
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
 </details>
