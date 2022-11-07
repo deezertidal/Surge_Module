@@ -208,6 +208,12 @@
 |:white_check_mark:钱迹|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/qj.module)|记账
 |:white_check_mark:Agenda|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/agenda.module)|笔记
 |:white_check_mark:即刻运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/agenda.module)|健身类
+|:white_check_mark:Day One|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/dayone.module)|日记类
+
+
+
+
+
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
