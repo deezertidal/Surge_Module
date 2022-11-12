@@ -212,7 +212,7 @@
 |:white_check_mark:谜底时钟|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/mdsz.module)|日历小组件
 |:white_check_mark:MoneyThings|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/moneythings.module)|钱包类
 |:white_check_mark:手机扫描仪|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/sjsmy.module)|扫描
-
+|:white_check_mark:Sorted|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/sorted.module)|日历
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
