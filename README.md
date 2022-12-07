@@ -236,7 +236,7 @@
 |:white_check_mark:7分钟HIIT运动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/seven.module)|健康类
 |:white_check_mark:私密相册管家|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/smxcgj.module)|相册
 |:white_check_mark:FitnessView|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/fnv.module)|健康类
-   
+|:white_check_mark:TODO清单|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/todo.module)|计划任务类
    
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
