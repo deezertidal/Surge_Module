@@ -247,24 +247,12 @@
 |:white_check_mark:绘影字幕|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/hyzm.module)|字幕app
 |:white_check_mark:汇中考|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/hzk.module)|学习类
 |:white_check_mark:iScreen|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/iscreen.module)|桌面美化类
+|:white_check_mark:小组件盒子|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/xzjhz.module)|桌面美化类
 
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
 </details>
-
-
-<details>
-  <summary>:key:机场推荐</summary>   
-
-|:octocat:机场推荐|:link:链接| :pushpin:套餐价格概况
-|--|--|--|
-|:white_check_mark:MagicSchool|[:link:官网](https://2220.it/register?aff=GNs68S4XWT)|9.9元/120G/月，19.9元/260G/月，本仓库专属八折优惠码shadycn(活动套餐除外)
-|:white_check_mark:EMO|[:link:官网](https://yyds.emovpn.top/#/register?code=7KLxhYOS)|0元300G/月，5元1000G/月
-|:white_check_mark:白月光|[:link:官网](https://www.bygcloud.com/#/register?code=DX4iT5B4)|IEPL专线。66元/140G/季，84元/230G/季（半年付95折码BYG05OFFHA，年付9折码BYG10OFFAN）
-* 推荐月付或季付
-
-</details>  
 
 
 <details>
@@ -377,4 +365,10 @@
 
  </details>
 
-![Image text](https://raw.githubusercontent.com/deezertidal/private/main/icons/surge.png)![Image text](https://raw.githubusercontent.com/deezertidal/freevpn/main/img/award.png)
+
+|:octocat:机场推荐|:link:链接| :pushpin:套餐价格概况
+|--|--|--|
+|:white_check_mark:MagicSchool|[:link:官网](https://2220.it/register?aff=GNs68S4XWT)|9.9元/120G/月，19.9元/260G/月，本仓库专属八折优惠码shadycn(活动套餐除外)
+|:white_check_mark:EMO|[:link:官网](https://yyds.emovpn.top/#/register?code=7KLxhYOS)|0元300G/月，5元1000G/月
+|:white_check_mark:白月光|[:link:官网](https://www.bygcloud.com/#/register?code=DX4iT5B4)|IEPL专线。66元/140G/季，84元/230G/季（半年付95折码BYG05OFFHA，年付9折码BYG10OFFAN）
+* 推荐月付或季付
