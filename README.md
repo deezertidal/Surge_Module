@@ -249,6 +249,10 @@
 |:white_check_mark:iScreen|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/iscreen.module)|桌面美化类
 |:white_check_mark:小组件盒子|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/xzjhz.module)|桌面美化类
 |:white_check_mark:佐糖|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/zt.module)|图片处理
+|:white_check_mark:飞鱼计划|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/fyjh.module)|生活记录工具
+
+
+
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
