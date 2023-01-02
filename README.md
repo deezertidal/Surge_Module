@@ -253,6 +253,10 @@
 |:white_check_mark:过期啦|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/gql.module)|保质期提醒
 |:white_check_mark:乃糖小组件|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/nt.module)|桌面美化类
 |:white_check_mark:一书一课|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/ysyk.module)|学习类
+|:white_check_mark:充电助手|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/cdzs.module)|电池助手
+
+
+
 
 * 如无必要 请勿更新解锁app
 * 解锁app一般需要登录账号点击恢复购买。大部分移植自Quantumult X和loon，请自行测试有效性。
