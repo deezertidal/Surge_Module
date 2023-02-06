@@ -269,6 +269,8 @@
 |:white_check_mark:一键换脸|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/yjhl.module)|图片编辑
 |:white_check_mark:Styleart|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/styleart.module)|图片编辑
 |:white_check_mark:7动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/7dong.module)|健身类
+|:white_check_mark:海报工厂|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/hbgc.module)|图片编辑
+
 
 
 * 如无必要 请勿更新解锁app
