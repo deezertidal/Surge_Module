@@ -270,7 +270,7 @@
 |:white_check_mark:Styleart|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/styleart.module)|图片编辑
 |:white_check_mark:7动|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/7dong.module)|健身类
 |:white_check_mark:海报工厂|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/hbgc.module)|图片编辑
-
+|:white_check_mark:我的番茄|[:link:链接地址](https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/modules/wdfq.module)|时间管理
 
 
 * 如无必要 请勿更新解锁app
