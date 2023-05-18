@@ -1,5 +1,5 @@
-# Surge模块    
-
+# Surge模块
+### 🔔[个人网站](https://ybnet.ga)支持搜索功能
 <details>
    <summary>:key:模块及说明</summary>    
    
