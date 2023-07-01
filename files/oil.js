@@ -17,8 +17,7 @@ $httpClient.get(apiurl, function(error, response, data) {
     var body = {
       title: prov,
       subtitle: time,
-      content: content,
-      icon: "car"
+      content: content
     };
     $done(body);
   }

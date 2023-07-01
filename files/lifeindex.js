@@ -54,8 +54,7 @@ $httpClient.get(apiurl, function(error, response, data) {
     var body = {
       title: title,
       subtitle: subtitle,
-      content: content,
-      icon: "umbrella.fill"
+      content: content
     };
 
     $done(body);
