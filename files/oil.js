@@ -8,10 +8,10 @@ $httpClient.get(apiurl, function(error, response, data) {
     var obj = JSON.parse(data);
     console.log(obj);
     var prov = obj.result.prov+"油价";
-    var p0 = "0号柴油: " + "¥" + obj.result.p0 + "    ";
-    var p92 = "92号汽油: " + "¥" + obj.result.p92 + "    ";
-    var p95 = "95号汽油: " + "¥" + obj.result.p95 + "    ";
-    var p98 = "98号汽油: " + "¥" + obj.result.p98 + "    ";
+    var p0 = "⛽0号柴油: " + "¥" + obj.result.p0 + "    ";
+    var p92 = "⛽92号汽油: " + "¥" + obj.result.p92 + "    ";
+    var p95 = "⛽95号汽油: " + "¥" + obj.result.p95 + "    ";
+    var p98 = "⛽98号汽油: " + "¥" + obj.result.p98 + "    ";
     var time = obj.result.time;
     var content = p92 + "\n" + p95 + "\n" + p98 + "\n" + p0;
     var body = {
