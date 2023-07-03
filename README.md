@@ -5,6 +5,7 @@
    
 |:octocat:模块|:link:链接|:pushpin:说明|
 |--|--|--|
+|:white_check_mark:面板|[:link:链接地址](https://yfamily.ml/surge)|
 |:white_check_mark:4in1|[:link:链接地址](https://yfamily.ml/module/4in1.module)|模块合集
 |:white_check_mark:去广告|[:link:链接地址](https://yfamily.ml/module/startingad.sgmodule)|去广告
 |:white_check_mark:去广告mix|[:link:链接地址](https://yfamily.ml/module/adultra.sgmodule)|去广告mix
