@@ -60,8 +60,7 @@ $httpClient.get(url, function(error, response, data) {
   let body = {
     title: "ChatGPT",
     content: content,
-    icon: 'ellipses.bubble.fill',
-    'icon-color': '#008000'
+    icon: 'ellipses.bubble.fill'
   };
   
   $done(body);
