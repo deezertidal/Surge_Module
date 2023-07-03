@@ -29,6 +29,8 @@ $httpClient.get(url, function(error, response, data) {
   const panel = {
     title: `🪙当前汇率信息 ${timestamp}`,
     content: content
+    icon: 'yensign.circle',
+    'icon-color': '#D4AF37'
   };
 
   $done(panel);

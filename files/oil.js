@@ -18,6 +18,8 @@ $httpClient.get(apiurl, function(error, response, data) {
       title: prov,
       subtitle: time,
       content: content
+      icon: 'car',
+      'icon-color': '#a66505'
     };
     $done(body);
   }
