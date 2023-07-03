@@ -55,8 +55,6 @@ $httpClient.get(apiurl, function(error, response, data) {
       title: title,
       subtitle: subtitle,
       content: content
-      icon: 'umbrella.fill',
-      'icon-color': '#a30b0b'
     };
 
     $done(body);
