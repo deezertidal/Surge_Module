@@ -1,4 +1,5 @@
 const url = "https://api.exchangerate-api.com/v4/latest/CNY";
+const params = getParams($argument);
 $httpClient.get(url, function(error, response, data) {
   if (error) {
     $done();
@@ -28,8 +29,18 @@ $httpClient.get(url, function(error, response, data) {
 
   const panel = {
     title: `🪙当前汇率信息 ${timestamp}`,
-    content: content
+    content: content,
+	        icon: params.icon,
+        "icon-color": params.color
   };
 
   $done(panel);
 });
+function getParams(param) {
+  return Object.fromEntries(
+    $argument
+      .split("&")
+      .map((item) => item.split("="))
+      .map(([k, v]) => [k, decodeURIComponent(v)])
+  );
+}

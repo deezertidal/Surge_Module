@@ -1,5 +1,5 @@
 const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd";
-
+const params = getParams($argument);
 $httpClient.get(apiurl, function(error, response, data) {
   if (error) {
     console.log(error);
@@ -54,9 +54,20 @@ $httpClient.get(apiurl, function(error, response, data) {
     var body = {
       title: title,
       subtitle: subtitle,
-      content: content
+      content: content,
+	          icon: params.icon,
+        "icon-color": params.color
     };
 
     $done(body);
   }
 });
+
+function getParams(param) {
+  return Object.fromEntries(
+    $argument
+      .split("&")
+      .map((item) => item.split("="))
+      .map(([k, v]) => [k, decodeURIComponent(v)])
+  );
+}

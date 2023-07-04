@@ -1,5 +1,5 @@
 const apiurl = "https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=%E6%B1%9F%E8%8B%8F";
-
+const params = getParams($argument);
 $httpClient.get(apiurl, function(error, response, data) {
   if (error) {
     console.log(error);
@@ -16,8 +16,19 @@ $httpClient.get(apiurl, function(error, response, data) {
     var content = p92 + "\n" + p95 + "\n" + p98 + "\n" + p0;
     var body = {
       title: prov,
-      content: content
+      content: content,
+	          icon: params.icon,
+        "icon-color": params.color
     };
     $done(body);
   }
 });
+
+function getParams(param) {
+  return Object.fromEntries(
+    $argument
+      .split("&")
+      .map((item) => item.split("="))
+      .map(([k, v]) => [k, decodeURIComponent(v)])
+  );
+}
