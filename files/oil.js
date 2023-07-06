@@ -1,32 +1,37 @@
-const apiurl = "https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=%E6%B1%9F%E8%8B%8F";
 const params = getParams($argument);
-$httpClient.get(apiurl, function(error, response, data) {
+const provinceName = params.provname || "江苏";
+const apiUrl = `https://apis.tianapi.com/oilprice/index?key=d718b0f7c2b6d71cb3a9814e90bf847f&prov=${encodeURIComponent(provinceName)}`;
+
+$httpClient.get(apiUrl, (error, response, data) => {
   if (error) {
     console.log(error);
     $done();
-  } else {
-    var obj = JSON.parse(data);
-    console.log(obj);
-    var prov = obj.result.prov+"油价"+ obj.result.time;
-    var p0 = "⛽0号柴油: " + "¥" + obj.result.p0 + "    ";
-    var p92 = "⛽92号汽油: " + "¥" + obj.result.p92 + "    ";
-    var p95 = "⛽95号汽油: " + "¥" + obj.result.p95 + "    ";
-    var p98 = "⛽98号汽油: " + "¥" + obj.result.p98 + "    ";
-    var time = obj.result.time;
-    var content = p92 + "\n" + p95 + "\n" + p98 + "\n" + p0;
-    var body = {
-      title: prov,
-      content: content,
-	          icon: params.icon,
-        "icon-color": params.color
-    };
-    $done(body);
+    return;
   }
+
+  const oilPriceData = JSON.parse(data);
+  if (oilPriceData.code !== 200) {
+    console.log(`请求失败，错误信息：${oilPriceData.msg}`);
+    $done();
+    return;
+  }
+
+  const oilPriceInfo = oilPriceData.result;
+  const message = `📍地区：${oilPriceInfo.prov}\n⛽0号柴油：${oilPriceInfo.p0}元/升\n⛽89号汽油：${oilPriceInfo.p89}元/升\n⛽92号汽油：${oilPriceInfo.p92}元/升\n⛽95号汽油：${oilPriceInfo.p95}元/升\n⛽98号汽油：${oilPriceInfo.p98}元/升\n🕰︎更新时间：${oilPriceInfo.time}`;
+
+  const body = {
+    title: "今日油价",
+    content: message,
+    provname: params.provname,
+    icon: params.icon,
+    "icon-color": params.color
+  };
+  $done(body);
 });
 
 function getParams(param) {
   return Object.fromEntries(
-    $argument
+    param
       .split("&")
       .map((item) => item.split("="))
       .map(([k, v]) => [k, decodeURIComponent(v)])
