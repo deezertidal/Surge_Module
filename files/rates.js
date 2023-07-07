@@ -19,12 +19,12 @@ $httpClient.get(url, function(error, response, data) {
   });
 
   const content = `
-    🇺🇸1美元兑换 ${usdToCny}🇨🇳人民币
-    🇨🇳1人民币兑换 ${cnyToHkd}🇭🇰港币
-    🇨🇳1人民币兑换 ${cnyToJpy}🇯🇵日元
-    🇨🇳1人民币兑换 ${cnyToKrw}🇰🇷韩元
-    🇪🇺1欧元兑换 ${eurToCny}🇨🇳人民币
-    🇬🇧1英镑兑换 ${gbpToCny}🇨🇳人民币
+🇺🇸1美元兑换 ${usdToCny}🇨🇳人民币
+🇨🇳1人民币兑换 ${cnyToHkd}🇭🇰港币
+🇨🇳1人民币兑换 ${cnyToJpy}🇯🇵日元
+🇨🇳1人民币兑换 ${cnyToKrw}🇰🇷韩元
+🇪🇺1欧元兑换 ${eurToCny}🇨🇳人民币
+🇬🇧1英镑兑换 ${gbpToCny}🇨🇳人民币
   `;
 
   const panel = {
