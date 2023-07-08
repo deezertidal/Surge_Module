@@ -1,35 +1,29 @@
 const params = getParams($argument);
 const url = "https://movie.douban.com/cinema/nowplaying/suzhou/";
-
 $httpClient.get(url, function (error, response, data) {
   if (error) {
     console.log("请求失败:", error);
     $done();
     return;
   }
-
   const movieData = extractMovieData(data);
   const movieTitles = movieData.titles.slice(0, 9);
   const movieScores = movieData.scores.slice(0, 9);
   const movieActors = movieData.actors.slice(0, 9);
-
   let panelContent = "";
   for (let i = 0; i < movieTitles.length; i++) {
     const score = movieScores[i] === "0" ? "暂无" : movieScores[i];
     const actors = movieActors[i] || "暂无";
     panelContent += "🎞️"+movieTitles[i] + "🤡" + actors+ "🍿" + score  + "\n";
   }
-
-  // 显示面板内容
   const body = {
-    title: "热映电影评分",
+    title: "热映电影&评分",
     content: panelContent,
     icon: params.icon,
     "icon-color": params.color
   };
   $done(body);
 });
-
 function extractMovieData(html) {
   const pattern = /data-title="(.*?)"\s+data-score="(.*?)"[^>]+data-actors="(.*?)"/g;
   let matches;
@@ -47,7 +41,6 @@ function extractMovieData(html) {
   }
   return { titles: titles, scores: scores, actors: actors };
 }
-
 function getParams(param) {
   return Object.fromEntries(
     param
