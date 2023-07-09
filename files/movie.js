@@ -14,7 +14,7 @@ $httpClient.get(url, function (error, response, data) {
   for (let i = 0; i < movieTitles.length; i++) {
     const score = movieScores[i] === "0" ? "暂无" : movieScores[i];
     const actors = movieActors[i] || "暂无";
-    panelContent += "🎞️"+movieTitles[i] + "🤡" + actors+ "🍿" + score  + "\n";
+    panelContent += "🎞️"+movieTitles[i] + "-" + actors+ "🍿" + score  + "\n";
   }
   const body = {
     title: "热映电影&评分",
