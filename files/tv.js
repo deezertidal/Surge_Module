@@ -22,7 +22,7 @@ function handleResponse(data) {
     const title = matches[1];
     const platform = matches[2];
 
-    panelContent += `[${title}] ${platform}\n`;
+    panelContent += `[${title}]➡︎${platform}\n`;
     count++;
   }
 
