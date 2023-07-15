@@ -54,10 +54,6 @@ switch (platform) {
     break;
   default:
     platformValue = '';
-    break;
-}
-  default:
-    platformValue = '';
 }
 
 const url = `https://tophub.today/n/${platformValue}`;
