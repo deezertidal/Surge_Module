@@ -16,6 +16,46 @@ switch (platform) {
   case '今日头条':
     platformValue = 'x9ozB4KoXb';
     break;
+  case '澎湃':
+    platformValue = 'wWmoO5Rd4E';
+    break;
+  case '百度':
+    platformValue = 'Jb0vmloB1G';
+    break;
+  case '36氪':
+    platformValue = 'Q1Vd5Ko85R';
+    break;
+  case '少数派':
+    platformValue = 'NaEdZZXdrO';
+    break;
+  case '财新':
+    platformValue = 'x9ozBY7oXb';
+    break;
+  case 'ZAKER':
+    platformValue = '5VaobJgoAj';
+    break;
+  case '新京报':
+    platformValue = 'YqoXQ8XvOD';
+    break;
+  case '南方周末':
+    platformValue = 'ENeYQBweY4';
+    break;
+  case '科普中国':
+    platformValue = 'DgeyxkwdZq';
+    break;
+  case '威锋网':
+    platformValue = 'n4qv90roaK';
+    break;
+  case '起点小说':
+    platformValue = 'VaobmGneAj';
+    break;
+  case '纵横小说':
+    platformValue = 'b0vmYyJvB1';
+    break;
+  default:
+    platformValue = '';
+    break;
+}
   default:
     platformValue = '';
 }
