@@ -1,6 +1,8 @@
-params = getParams($argument);
-const songCount = params.songCount || "5";
-const url = 'https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/billboard-hot-100/recent.json';
+const params = getParams($argument);
+const songCount = params.songCount || 5;
+const sort = params.sort || 'billboard-hot-100';
+const url = `https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/${sort}/recent.json`;
+
 $httpClient.get(url, function(error, response, body) {
   if (error) {
     console.log("请求失败:", error);
@@ -28,14 +30,22 @@ function handleResponse(body) {
       } else {
         rankChange = '🆕';
       }
-      const notification = `${rank}🎧${name} - ${artist} ${rankChange}`;
+      let notification = `${rank}🎧`;
+      if (name !== undefined && name !== null) {
+        notification += `${name} - `;
+      }
+      if (artist !== undefined && artist !== null) {
+        notification += `${artist} `;
+      }
+      notification += rankChange;
       notifications.push(notification);
     }
 
     const panel = {
-      title: `Top ${songCount} of Billboard Hot 100`,
+      title: `Top ${songCount} of ${sort}`,
       content: notifications.join('\n'),
       songCount: params.songCount,
+      sort: params.sort,
       icon: params.icon,
       "icon-color": params.color
     };
@@ -48,7 +58,7 @@ function handleResponse(body) {
 
 function getParams(param) {
   return Object.fromEntries(
-    $argument
+    param
       .split("&")
       .map((item) => item.split("="))
       .map(([k, v]) => [k, decodeURIComponent(v)])
