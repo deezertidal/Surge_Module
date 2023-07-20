@@ -1,5 +1,5 @@
 # Surge模块
-### 🔔[个人网站](https://yfamily.ml)支持搜索功能
+### 🔔[个人网站](https://yfamily.vercel.app)支持搜索功能
 <details>
    <summary>:key:模块及说明</summary>    
    
