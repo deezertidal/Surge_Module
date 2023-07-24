@@ -52,6 +52,9 @@ switch (platform) {
   case '纵横小说':
     platformValue = 'b0vmYyJvB1';
     break;
+  case '北美票房':
+    platformValue = 'n6YoVPadZa';
+    break;
   default:
     platformValue = '';
 }
