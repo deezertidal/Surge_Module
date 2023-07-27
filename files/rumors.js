@@ -54,7 +54,7 @@ const truthRegex = /<strong>真相：<\/strong>(.*?)<\/p>/;
           } else {
             const rumor = rumorMatch[1].replace(/<[^>]+>/g, "").trim();
             const truth = truthMatch[1].replace(/<[^>]+>/g, "").trim();
-            const content = `🤔谣言：${rumor}\n真相：${truth}`;
+            const content = `🤔谣言：${rumor}\n🔍真相：${truth}`;
             const body = {
               title: "今日谣言",
               content: content,
