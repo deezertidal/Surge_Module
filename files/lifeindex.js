@@ -1,5 +1,5 @@
 //const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd";
-const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=53557798&appsecret=aBLqbX8A";
+const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=21386837&appsecret=ZMYs6L57";
 const params = getParams($argument);
 $httpClient.get(apiurl, function(error, response, data) {
   if (error) {
