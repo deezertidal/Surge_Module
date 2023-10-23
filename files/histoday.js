@@ -25,10 +25,10 @@ function handleResponse(data) {
     }
 
     const count = parseInt(params.count) || 6;
-    const notification = "📓"+events.slice(0, count).join("\n");
+    const notification = events.slice(0, count).join("\n");
 
     const body = {
-      title: "历史上的今天" ,
+      title: "📓历史上的今天" ,
       content: notification,
       icon: params.icon,
       "icon-color": params.color,
