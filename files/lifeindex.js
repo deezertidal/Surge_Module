@@ -1,13 +1,44 @@
-//const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=79171417&appsecret=LP9yfUKd";
-const apiurl = "https://www.tianqiapi.com/life/lifepro?appid=22756429&appsecret=4jyd8izR";
+const apiUrls  = [
+  "https://www.tianqiapi.com/life/lifepro?appid=32189289&appsecret=3RdKetVh",
+  "https://www.tianqiapi.com/life/lifepro?appid=24222488&appsecret=5rwuHzOJ",
+  "https://www.tianqiapi.com/life/lifepro?appid=47273245&appsecret=BCK1QTW5",
+  "https://www.tianqiapi.com/life/lifepro?appid=22756429&appsecret=4jyd8izR",
+  "https://www.tianqiapi.com/life/lifepro?appid=55944146&appsecret=qndepHp7"
+];
+
+let currentIndex = 0;
+
 const params = getParams($argument);
-$httpClient.get(apiurl, function(error, response, data) {
-  if (error) {
-    console.log(error);
+
+function testNextUrl() {
+  if (currentIndex >= apiUrls.length) {
+    console.log("All URLs failed");
     $done();
+    return;
+  }
+
+  const apiUrl = apiUrls[currentIndex];
+
+  $httpClient.get(apiUrl, function (error, response, data) {
+    if (error) {
+      console.log(`Error for URL ${currentIndex + 1}: ${error}`);
+      currentIndex++;
+      testNextUrl();
+    } else {
+      handleResponse(data);
+    }
+  });
+}
+
+function handleResponse(data) {
+  var obj = JSON.parse(data);
+  console.log(obj);
+
+
+  if (obj.errcode === 100) {
+    currentIndex++;
+    testNextUrl(); 
   } else {
-    var obj = JSON.parse(data);
-    console.log(obj);
 
         var title = obj.city+"生活指数"+obj.update_time;
         var subtitle = "下拉查看更多";
@@ -56,13 +87,13 @@ $httpClient.get(apiurl, function(error, response, data) {
       title: title,
       subtitle: subtitle,
       content: content,
-	          icon: params.icon,
-        "icon-color": params.color
+      icon: params.icon,
+      "icon-color": params.color
     };
 
     $done(body);
   }
-});
+}
 
 function getParams(param) {
   return Object.fromEntries(
@@ -72,3 +103,5 @@ function getParams(param) {
       .map(([k, v]) => [k, decodeURIComponent(v)])
   );
 }
+
+testNextUrl();
