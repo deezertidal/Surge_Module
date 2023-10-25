@@ -12,6 +12,7 @@ $httpClient.get(url, function(error, response, data) {
   const cnyToKrw = rates.KRW.toFixed(2);
   const eurToCny = (1 / rates.EUR).toFixed(2);
   const gbpToCny = (1 / rates.GBP).toFixed(2);
+  const tryToCny = rates.TRY.toFixed(2);
   const timestamp = new Date().toLocaleTimeString("en-US", {
     hour: "2-digit",
     minute: "2-digit",
@@ -23,6 +24,7 @@ $httpClient.get(url, function(error, response, data) {
 🇨🇳1人民币兑换 ${cnyToHkd}🇭🇰港币
 🇨🇳1人民币兑换 ${cnyToJpy}🇯🇵日元
 🇨🇳1人民币兑换 ${cnyToKrw}🇰🇷韩元
+🇨🇳1人民币兑换 ${tryToCny}🇹🇷里拉
 🇪🇺1欧元兑换 ${eurToCny}🇨🇳人民币
 🇬🇧1英镑兑换 ${gbpToCny}🇨🇳人民币
   `;
