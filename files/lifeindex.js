@@ -1,9 +1,9 @@
 const apiUrls  = [
-  "https://v1.yiketianqi.com/life/lifepro?appid=27252736&appsecret=9Nl7kF6P",
-  "https://v1.yiketianqi.com/life/lifepro?appid=32157595&appsecret=2C2H0bG2",
-  "https://v1.yiketianqi.com/life/lifepro?appid=36257958&appsecret=3go4XUxf",
-  "https://v1.yiketianqi.com/life/lifepro?appid=23332876&appsecret=rfbpm6aL",
-  "https://v1.yiketianqi.com/life/lifepro?appid=56972861&appsecret=9XhE58dH"
+  "https://v1.yiketianqi.com/life/lifepro?appid=15611796&appsecret=JUtMMt3N",
+  "https://v1.yiketianqi.com/life/lifepro?appid=56851528&appsecret=8vCqHmiQ",
+  "https://v1.yiketianqi.com/life/lifepro?appid=41363566&appsecret=7G4EiNwq",
+  "https://v1.yiketianqi.com/life/lifepro?appid=93946894&appsecret=M9052XQi",
+  "https://v1.yiketianqi.com/life/lifepro?appid=44333354&appsecret=FH06YXRk"
 ];
 
 let currentIndex = 0;
