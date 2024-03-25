@@ -1,5 +1,5 @@
-# Surge模块
-### 🔔[个人网站](https://whatshub.top)支持搜索功能
+# 🔔[个人网站](https://whatshub.top)
+### Surge模块
 <details>
    <summary>:key:模块及说明</summary>    
    
