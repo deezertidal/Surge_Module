@@ -1,5 +1,7 @@
 # 🔔[个人网站](https://whatshub.top)
-### Surge模块
+
+* #### [Surge模块](https://whatshub.top/surge)
+* #### [分流规则](https://whatshub.top/rule)
 <details>
    <summary>:key:模块及说明</summary>    
    
