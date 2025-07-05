@@ -1,10 +1,11 @@
 const url = "https://api.exchangerate-api.com/v4/latest/CNY";
-const params = getParams($argument);
+
 $httpClient.get(url, function(error, response, data) {
   if (error) {
     $done();
     return;
   }
+
   const rates = JSON.parse(data).rates;
   const usdToCny = (1 / rates.USD).toFixed(2);
   const cnyToHkd = rates.HKD.toFixed(2);
@@ -27,22 +28,14 @@ $httpClient.get(url, function(error, response, data) {
 🇨🇳1人民币兑换 ${tryToCny}🇹🇷里拉
 🇪🇺1欧元兑换 ${eurToCny}🇨🇳人民币
 🇬🇧1英镑兑换 ${gbpToCny}🇨🇳人民币
-  `;
+`;
 
   const panel = {
     title: `🪙当前汇率信息 ${timestamp}`,
     content: content,
-	        icon: params.icon,
-        "icon-color": params.color
+    icon: "bitcoinsign.circle",
+    "icon-color": "#EF8F1C"
   };
 
   $done(panel);
 });
-function getParams(param) {
-  return Object.fromEntries(
-    $argument
-      .split("&")
-      .map((item) => item.split("="))
-      .map(([k, v]) => [k, decodeURIComponent(v)])
-  );
-}
