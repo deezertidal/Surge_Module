@@ -1,4 +1,4 @@
-# 由yfamilys.com自动维护 202602111631
+# 由yfamilys.com自动维护 202602111959
 payload:
   - DOMAIN-KEYWORD,amazon
   - DOMAIN-KEYWORD,aws
@@ -2176,7 +2176,6 @@ payload:
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,advertising.amazon.co.jp
   - DOMAIN-SUFFIX,advertu.com
-  - DOMAIN-SUFFIX,ae.hao123.com
   - DOMAIN-SUFFIX,ae.org
   - DOMAIN-SUFFIX,ae86m.com
   - DOMAIN-SUFFIX,aecconnectors.com.tw
@@ -3916,7 +3915,6 @@ payload:
   - DOMAIN-SUFFIX,bbs.nyinfor.com
   - DOMAIN-SUFFIX,bbs.omnitalk.org
   - DOMAIN-SUFFIX,bbs.qmzdd.com
-  - DOMAIN-SUFFIX,bbs.sina.com
   - DOMAIN-SUFFIX,bbs.tianshi2.com
   - DOMAIN-SUFFIX,bbs.tuitui.info
   - DOMAIN-SUFFIX,bbsdigest.com
@@ -4817,7 +4815,6 @@ payload:
   - DOMAIN-SUFFIX,bpf.org
   - DOMAIN-SUFFIX,bpiexpressonline.com
   - DOMAIN-SUFFIX,br-id.com
-  - DOMAIN-SUFFIX,br.hao123.com
   - DOMAIN-SUFFIX,br.st
   - DOMAIN-SUFFIX,br8bet.com
   - DOMAIN-SUFFIX,bra9.itemdb.com
@@ -8915,7 +8912,6 @@ payload:
   - DOMAIN-SUFFIX,en.btdig.com
   - DOMAIN-SUFFIX,en.cloudss.me
   - DOMAIN-SUFFIX,en.favotter.net
-  - DOMAIN-SUFFIX,en.hao123.com
   - DOMAIN-SUFFIX,en.howbbs.com
   - DOMAIN-SUFFIX,en.ishadowx.net
   - DOMAIN-SUFFIX,en.jable.tv
@@ -12467,7 +12463,6 @@ payload:
   - DOMAIN-SUFFIX,hk.epochtimes.com
   - DOMAIN-SUFFIX,hk.godaddy.com
   - DOMAIN-SUFFIX,hk.gradconnection.com
-  - DOMAIN-SUFFIX,hk.hao123img.com
   - DOMAIN-SUFFIX,hk.jiepang.com
   - DOMAIN-SUFFIX,hk.knowledge.yahoo.com
   - DOMAIN-SUFFIX,hk.mobi.yahoo.com
@@ -12780,7 +12775,6 @@ payload:
   - DOMAIN-SUFFIX,hrhr8.com
   - DOMAIN-SUFFIX,hrichina.org
   - DOMAIN-SUFFIX,hrntt.org
-  - DOMAIN-SUFFIX,hrtsea.com
   - DOMAIN-SUFFIX,hrw.org
   - DOMAIN-SUFFIX,hrweb.org
   - DOMAIN-SUFFIX,hrwf.eu
@@ -13107,7 +13101,6 @@ payload:
   - DOMAIN-SUFFIX,icsin.org
   - DOMAIN-SUFFIX,icu-project.org
   - DOMAIN-SUFFIX,icwa.in
-  - DOMAIN-SUFFIX,id.hao123.com
   - DOMAIN-SUFFIX,id.heroku.com
   - DOMAIN-SUFFIX,id.now-ip.net
   - DOMAIN-SUFFIX,id.oculus.com
@@ -14422,7 +14415,6 @@ payload:
   - DOMAIN-SUFFIX,jp-hk.com
   - DOMAIN-SUFFIX,jp-sex.com
   - DOMAIN-SUFFIX,jp.dr5.com.tw
-  - DOMAIN-SUFFIX,jp.hao123.com
   - DOMAIN-SUFFIX,jp.taiwantoday.tw
   - DOMAIN-SUFFIX,jp.tiar.app
   - DOMAIN-SUFFIX,jp1lib.org
@@ -15198,7 +15190,6 @@ payload:
   - DOMAIN-SUFFIX,lcvpn.com
   - DOMAIN-SUFFIX,lcx.cc
   - DOMAIN-SUFFIX,lczipper.com
-  - DOMAIN-SUFFIX,ld.hao123img.com
   - DOMAIN-SUFFIX,ld12.pro
   - DOMAIN-SUFFIX,lddb.com
   - DOMAIN-SUFFIX,ldplayer.net
@@ -15933,7 +15924,6 @@ payload:
   - DOMAIN-SUFFIX,m88.com
   - DOMAIN-SUFFIX,m88sb.com
   - DOMAIN-SUFFIX,m9909.com
-  - DOMAIN-SUFFIX,ma.hao123.com
   - DOMAIN-SUFFIX,ma3loooma.blogspot.hk
   - DOMAIN-SUFFIX,maa1801.com
   - DOMAIN-SUFFIX,maa1805.com
@@ -17209,7 +17199,6 @@ payload:
   - DOMAIN-SUFFIX,mvnrepository.com
   - DOMAIN-SUFFIX,mvpn.pro
   - DOMAIN-SUFFIX,mwd.com.tw
-  - DOMAIN-SUFFIX,mx.hao123.com
   - DOMAIN-SUFFIX,mx981.com
   - DOMAIN-SUFFIX,mxvpn.com
   - DOMAIN-SUFFIX,my-formosa.com
@@ -21056,7 +21045,6 @@ payload:
   - DOMAIN-SUFFIX,s8forum.com
   - DOMAIN-SUFFIX,s92.jorn.net
   - DOMAIN-SUFFIX,s98m.com
-  - DOMAIN-SUFFIX,sa.hao123.com
   - DOMAIN-SUFFIX,sa.portal.jw.org
   - DOMAIN-SUFFIX,sa36.net
   - DOMAIN-SUFFIX,saalt.org
@@ -23396,7 +23384,6 @@ payload:
   - DOMAIN-SUFFIX,tbrc.org
   - DOMAIN-SUFFIX,tbs-rainbow.org
   - DOMAIN-SUFFIX,tbsec.org
-  - DOMAIN-SUFFIX,tbskkinabalu.page.tl
   - DOMAIN-SUFFIX,tbsmalaysia.org
   - DOMAIN-SUFFIX,tbsn.org
   - DOMAIN-SUFFIX,tbsseattle.org
@@ -23645,7 +23632,6 @@ payload:
   - DOMAIN-SUFFIX,tgstat.com
   - DOMAIN-SUFFIX,tgtea.com.tw
   - DOMAIN-SUFFIX,tgtube.com
-  - DOMAIN-SUFFIX,th.hao123.com
   - DOMAIN-SUFFIX,th1.bullvpn.com
   - DOMAIN-SUFFIX,th7777.com
   - DOMAIN-SUFFIX,thaicn.com
@@ -24855,7 +24841,6 @@ payload:
   - DOMAIN-SUFFIX,tw.epochtimes.com
   - DOMAIN-SUFFIX,tw.forums.blizzard.com
   - DOMAIN-SUFFIX,tw.godaddy.com
-  - DOMAIN-SUFFIX,tw.hao123.com
   - DOMAIN-SUFFIX,tw.jiepang.com
   - DOMAIN-SUFFIX,tw.jzbet666.net
   - DOMAIN-SUFFIX,tw.knowledge.yahoo.com
@@ -25873,7 +25858,6 @@ payload:
   - DOMAIN-SUFFIX,vmixcore.com
   - DOMAIN-SUFFIX,vmpsoft.com
   - DOMAIN-SUFFIX,vmusic.vip
-  - DOMAIN-SUFFIX,vn.hao123.com
   - DOMAIN-SUFFIX,vnclip.net
   - DOMAIN-SUFFIX,vnet.link
   - DOMAIN-SUFFIX,vnexplorer.net
